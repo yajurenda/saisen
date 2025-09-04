@@ -1,0 +1,40 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  text-align: center;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.main-image {
+  max-width: 90%;
+  height: auto;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: pink;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffcccc;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
