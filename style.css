@@ -1,18 +1,22 @@
 body {
-  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
-  text-align: center;
-  background-color: #fff;
   margin: 0;
   padding: 0;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
 }
 
 .container {
-  margin-top: 20px;
+  position: relative;
 }
 
 .main-image {
-  max-width: 90%;
-  height: auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-area {
+  margin-top: 20px;
 }
 
 input[type="number"] {
