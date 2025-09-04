@@ -7,38 +7,62 @@ body {
 }
 
 .container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
 }
 
-.main-image {
-  width: 100%;
-  max-width: 500px;
+.logo {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.decoration {
+  max-width: 300px;
+  width: 80%;
+  height: auto;
+  margin: 20px 0;
 }
 
 .input-area {
-  margin-top: 20px;
+  margin: 20px 0;
+}
+
+.input-area p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 input[type="number"] {
   padding: 10px;
   margin: 10px 0;
   font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+  text-align: center;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 12px 30px;
   font-size: 20px;
-  background-color: pink;
+  background-color: #ff99aa;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 button:hover {
-  background-color: #ffcccc;
+  background-color: #ff6688;
 }
 
 #message {
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: 30px;
+  font-size: 20px;
   font-weight: bold;
+  color: #333;
 }
