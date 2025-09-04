@@ -1,8 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
-  text-align: center;
   font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
 }
 
@@ -10,39 +13,41 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 20px;
+  text-align: center;
 }
 
 .logo {
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .decoration {
-  max-width: 300px;
+  max-width: 280px;
   width: 80%;
   height: auto;
-  margin: 20px 0;
+  margin-bottom: 30px;
 }
 
 .input-area {
-  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .input-area p {
-  margin-bottom: 10px;
+  margin: 0;
   font-size: 18px;
   font-weight: bold;
 }
 
 input[type="number"] {
   padding: 10px;
-  margin: 10px 0;
   font-size: 18px;
   border: 2px solid #ccc;
   border-radius: 6px;
-  width: 200px;
+  width: 220px;
   text-align: center;
 }
 
@@ -61,7 +66,7 @@ button:hover {
 }
 
 #message {
-  margin-top: 30px;
+  margin-top: 25px;
   font-size: 20px;
   font-weight: bold;
   color: #333;
